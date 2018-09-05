@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.countdown .item {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.countdown .item .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.countdown .item .content .header {
+  font-size: 2em;
+}
+.countdown .item .content .meta {
+  color: #777;
+}
